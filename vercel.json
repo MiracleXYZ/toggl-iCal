@@ -1,14 +1,9 @@
 {
   "version": 2,
-  "alias": [
-    "toggl-ical.kattcorp.com",
-    "toggl-ical.kattcorp.se",
-    "toggl-ical.kattcorp.co.uk"
-  ],
   "builds": [
     {
-      "src": "./src/**/*.ts",
-      "use": "@now/node"
+      "src": "src/**/*.ts",
+      "use": "@vercel/node"
     }
   ],
   "env": {

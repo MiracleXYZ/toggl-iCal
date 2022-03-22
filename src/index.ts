@@ -49,7 +49,7 @@ function createCal({ entries }: { entries: TogglEntryWithProject[] }) {
   });
 
   for (const entry of entries) {
-    const icon = entry.billable ? "💲" : "❌";
+    const icon = entry.billable ? "💲" : "⏲️";
 
     const durationInHoursRounded =
       Math.round((entry.duration / 60 / 60) * 10) / 10;
